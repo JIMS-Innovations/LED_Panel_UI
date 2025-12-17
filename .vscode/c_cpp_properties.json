@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "Core/Inc",
+                "Drivers/STM32F4xx_HAL_Driver/Inc",
+                "Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+                "Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "Drivers/CMSIS/Include"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F411xE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "macos-clang-x64"
+        }
+    ],
+    "version": 4
+}
